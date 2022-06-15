@@ -29,7 +29,7 @@ Para utlizar el componente se debe:
 | Prop name    | Type            | Description    | Default value                                                                                                                               |
 | ------------ | --------------- | --------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | 
 | `promotionEndDate`      | `string`       | Fecha en la cual finaliza la promo (La fecha esta en formato ISO 8601)| `2022-08-01T04:30:00Z`        |
-| ------------ | --------------- | --------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | 
+|-
 | `promotionImage`      | `string`       |Ruta con la imagen asociada a la promo| `XXXXXX`        |
 
 
