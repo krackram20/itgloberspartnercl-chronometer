@@ -1,0 +1,6 @@
+{
+  "chronometer-custom":{
+    "component": "Chronometer",
+    "render": "client"
+  }
+}
