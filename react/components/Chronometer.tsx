@@ -48,4 +48,30 @@ const handles = useCssHandles(CSS_HANDLES)
   )
 }
 
+
+Chronometer.schema = {
+  title: "Chronometer",
+  type: "object",
+  properties: {
+    promotionImage: {
+      title: "imagen para el cronometro",
+      type: "string",
+      widget: {
+        "ui:widget": "image-uploader"
+      }
+    },
+    promotionEndDate: {
+      title: "Fin de promocion",
+      type: "string",
+      widget: {
+        "ui:widget": "date-time"
+      }
+    }
+  }
+
+}
+
+
+
+
 export default Chronometer
