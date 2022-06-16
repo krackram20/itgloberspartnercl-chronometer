@@ -29,14 +29,15 @@ const Countdown = (
 
 
 
-    // calculamos tiempo hasta fin de promocion y especificamos dos digitos cuando el contador este entre 0 y 10
+    // Calculates the time left till the end of the promo, and adds a cero to digits between 0 and 9
 
 
     const days = Math.floor(
       timeTillDate / (1000 * 60 * 60 * 24))
       .toLocaleString('en-US', {minimumIntegerDigits: 2, useGrouping:false})
 
-    // usamos el operador % para saber el excedente de tiempo una vez calculados los dias y definimos las horas, minutos y segundos a partir de este excedente
+    // We use the operator % to calculate the time left after calculating the days until the end,
+    // and then we use the excess time to calculate the hours minutes and seconds
 
     const hours = Math.floor(
       (timeTillDate % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60))
