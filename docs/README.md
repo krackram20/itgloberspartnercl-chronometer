@@ -10,6 +10,8 @@
 
 
 This component renders a countdown, which indicates the time left until the end of a promotion. It also includes and image of that promotion.
+
+
 ![image](https://user-images.githubusercontent.com/62782975/173937732-ef99afde-c553-4895-b1ac-c113867522b4.png)
 
  
