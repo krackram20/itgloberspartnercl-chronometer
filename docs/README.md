@@ -8,18 +8,18 @@
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 <!-- DOCS-IGNORE:end -->
 
-Este componente renderiza un cronometro el cual  indica el tiempo faltante para el final  de una promocion, junto con la imagen de dicha promocion.
 
+This component renders a countdown, which indicates the time left until the end of a promotion. It also includes and image of that promotion.
 ![image](https://user-images.githubusercontent.com/62782975/173937732-ef99afde-c553-4895-b1ac-c113867522b4.png)
 
  
 
-## Configuracion
+## Configuration
 
-Para utlizar el componente se debe:
+In order to use this component you must:
 
-1. Añadir la dependencia `"itgloberspartnercl.chronometer-custom": "0.x"` al `manifest.json`;
-2. Declarar el bloque `chronometer-custom`.
+1. Add the dependency `"itgloberspartnercl.chronometer-custom": "0.x"` to `manifest.json`;
+2. Declare the block `chronometer-custom`.
 
 ![image](https://user-images.githubusercontent.com/62782975/173939381-c784afa6-1d7b-48bc-9d49-2ee17247e783.png)
 
@@ -28,24 +28,15 @@ Para utlizar el componente se debe:
 
 | Prop name    | Type            | Description    | Default value                                                                                                                               |
 | ------------ | --------------- | --------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | 
-| `promotionEndDate`      | `string`       | Fecha en la cual finaliza la promo (La fecha esta en formato ISO 8601)| `2022-08-01T04:30:00Z`        |
+| `promotionEndDate`      | `string`       | Date till the end of promo (date format ISO 8601)| `2022-08-01T04:30:00Z`        |
 |-
-| `promotionImage`      | `string`       |Ruta con la imagen asociada a la promo| `XXXXXX`        |
-
-
-When documenting a prop whose type is `object` or `array` another prop table will be needed. You can create it following the example below:
-
-- `propName` object:
-
-| Prop name    | Type            | Description    | Default value                                                                                                                               |
-| ------------ | --------------- | --------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | 
-| `XXXXX`      | `XXXXXX`       | XXXXXXXX         | `XXXXXX`        |
+| `promotionImage`      | `string`       |Path where the image is located| `XXXXXX`        |
 
 
 
-## Customizacion
+## Customization
 
-La customizacion de los elementos incluidos en el componente se puede realizar desde el archivo `itgloberspartnercl.chronometer-custom.css`
+Custom css style must be done in the file `itgloberspartnercl.chronometer-custom.css`
 
 `In order to apply CSS customizations in this and other blocks, follow the instructions given in the recipe on [Using CSS Handles for store customization](https://vtex.io/docs/recipes/style/using-css-handles-for-store-customization).`
 
