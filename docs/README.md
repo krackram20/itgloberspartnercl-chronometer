@@ -31,8 +31,8 @@ In order to use this component you must:
 | Prop name    | Type            | Description    | Default value                                                                                                                               |
 | ------------ | --------------- | --------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | 
 | `promotionEndDate`      | `string`       | Date till the end of promo (date format ISO 8601)| `2022-08-01T04:30:00Z`        |
-|-
-| `promotionImage`      | `string`       |Path where the image is located| `XXXXXX`        |
+| `promotionImageDesktop`      | `string`       |Path where the image for desktop is located | `XXXXXX`
+| `promotionImageMobile`      | `string`       |Path where the image  for mobile is located| `XXXXXX`        |
 
 
 
